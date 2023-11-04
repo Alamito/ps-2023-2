@@ -10,7 +10,9 @@ const Home = () => {
                     <span className={styles['text-ide']}>IDE</span>
                     <span className={styles['text-poke']}>X</span>
                 </h1>
+                <a href="#inicio">
                 <button className={styles['home-button']}>START</button>
+                </a>
             </div>
         </div>
     )
