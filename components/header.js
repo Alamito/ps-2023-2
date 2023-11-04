@@ -11,10 +11,11 @@ const Header = () => (
         <a href="/about">
             <h2 className={styles['link']}>SOBRE</h2>
         </a>
-        <a href="/form">
+        <a href="#form">
             <h2 className={styles['link']}>FORMULARIO</h2>
         </a>
     </div>
 );
 
 export default Header;
+
