@@ -3,10 +3,10 @@ import styles from '../src/styles/footer.module.css'
 const Footer = () => (
     <div className={styles['container-footer']}>
         <div className={styles['footer-icons']}>
-            <a href="#"><img src="/img/pokemon-logo.png" /></a>
-            <a href="#"><img src="/img/instagram-logo.png" /></a>
-            <a href="#"><img src="/img/linkedin-logo.png" /></a>
-            <a href="#"><img src="/img/ide-logo.png" /></a>
+            <a href="https://www.pokemon.com/" target="_blank"><img src="/img/pokemon-logo.png" /></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="/img/instagram-logo.png" /></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="/img/linkedin-logo.png" /></a>
+            <a href="https://www.idejr.com.br/" target="_blank"><img src="/img/ide-logo.png" /></a>
         </div>
         <p>株式会社ポケモン (The Pokémon Company) © x IDE © Todos os direitos reservados.</p>
         <p>

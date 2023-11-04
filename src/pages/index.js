@@ -24,6 +24,9 @@ export default function Page() {
       <Footer />
       
 
+
+      <Form />
+      <Footer />
     </div>
   )
 }
