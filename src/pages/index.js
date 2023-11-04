@@ -6,7 +6,8 @@ import Agua from "../../components/agua"
 import Fogo from "../../components/fogo"
 import Planta from "../../components/planta"
 import Sobre from "../../components/sobre"
-
+import Form from "../../components/form"
+import Footer from "../../components/footer"
 
 export default function Page() {
   return (
@@ -19,11 +20,9 @@ export default function Page() {
       <Planta />
       <Fogo />
       <Sobre />
-      
-      <h1>
-        Olá, mundo!!!
-      </h1>
 
+      <Form />
+      <Footer />
     </div>
   )
 }
