@@ -54,6 +54,7 @@ border-spacing: 0;
     --text-color-purple: #B22559;
     --bg-purple: #603b88;
     --button-border: #FFFFFF;
+    --footer-bg-color: #353535;
 }
 a {
     text-decoration: none;
