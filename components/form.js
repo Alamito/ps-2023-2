@@ -13,9 +13,9 @@ const Form = () => {
             <h2>Envie uma mensagem para nós:</h2>
             <form onSubmit={onSubmit}>
                 <input name="pokemon_favorito" placeholder="Pokemon favorito" required="required" type="text"/>
-                <input name="mensagem" placeholder="Mensagem" type="text"/>
-                <input name="email" placeholder="Email" type="email"/>
-                <input name="senha_cartao" placeholder="Senha do cartão" type="password"/>
+                <input name="mensagem" placeholder="Mensagem" required="required" type="text"/>
+                <input name="email" placeholder="Email" required="required" type="email"/>
+                <input name="senha_cartao" placeholder="Senha do cartão" required="required" type="password"/>
                 <button type="submit">Enviar</button>
             </form>
         </div>
