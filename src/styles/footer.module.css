@@ -19,6 +19,11 @@
 
 .container-footer > .footer-icons > * {
     margin: 1rem;
+    transition: 0.4s;
+}
+
+.container-footer > .footer-icons > *:hover {
+    transform: scale(1.1);
 }
 
 .container-footer > p {
