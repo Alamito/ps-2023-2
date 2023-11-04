@@ -1,0 +1,39 @@
+.container-footer {
+    background-color: var(--footer-bg-color);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container-footer > .footer-icons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 3.5rem;
+    justify-content: center;
+    margin-bottom: 4.5rem;
+    margin-top: 6rem;
+}
+
+.container-footer > .footer-icons > * {
+    margin: 1rem;
+}
+
+.container-footer > p {
+    color: var(--text-color-white);
+    margin-bottom: 2rem;
+}
+
+.container-footer > p a {
+    color: var(--text-color-white);
+}
+
+.container-footer > .footer-ide-logo {
+    width: 100%;
+}
+
+.container-footer > .footer-ide-logo > img {
+    float: right;
+}
