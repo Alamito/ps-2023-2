@@ -22,11 +22,7 @@ export default function Page() {
       <Sobre />
       <Form />
       <Footer />
-      
 
-
-      <Form />
-      <Footer />
     </div>
   )
 }
