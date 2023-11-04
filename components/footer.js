@@ -1,6 +1,6 @@
 import styles from '../src/styles/footer.module.css'
 
-const Header = () => (
+const Footer = () => (
     <div className={styles['container-footer']}>
         <div className={styles['footer-icons']}>
             <a href="#"><img src="/img/pokemon-logo.png" /></a>
@@ -22,4 +22,4 @@ const Header = () => (
     </div>
 );
 
-export default Header;
+export default Footer;
