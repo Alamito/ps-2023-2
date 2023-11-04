@@ -8,7 +8,7 @@ const Header = () => (
         <a href="#inicio">
             <h2 className={styles['link']}>INICIAIS</h2>
         </a>
-        <a href="/about">
+        <a href="#sobre">
             <h2 className={styles['link']}>SOBRE</h2>
         </a>
         <a href="#form">
